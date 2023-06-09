@@ -2,8 +2,8 @@ summary:
     Run integration tests with tmt
 discover:
     how: fmf
-    url: https://github.com/psss/tmt
-    ref: fedora
+    url: https://github.com/teemtee/tmt
+    ref: main
     test: execute
     filter: 'tier: 1, 2'
 prepare:
